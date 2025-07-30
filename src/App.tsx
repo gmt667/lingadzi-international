@@ -11,6 +11,7 @@ import Events from './pages/Events';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Alumni from './pages/Alumni';
+import ApplicationForms from './components/ApplicationForms'; // <-- Added import
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/alumni" element={<Alumni />} />
+
+            {/* New route for Application Forms page */}
+            <Route path="/application-forms" element={<ApplicationForms />} />
           </Routes>
         </main>
         <Footer />
