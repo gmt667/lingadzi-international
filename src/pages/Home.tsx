@@ -13,10 +13,10 @@ import {
   Globe
 } from 'lucide-react';
 // Final Correct Imports for images (matching your filenames & extensions)
-import george from "../assets/alumni/george.JPG";
+import george from "../assets/alumni/george.jpg";
 import ivy from "../assets/alumni/ivy.jpg";
-import wonderful from "../assets/alumni/wonderful.JPG";
-import evance from "../assets/alumni/evance.JPG";
+import wonderful from "../assets/alumni/wonderful.jpg";
+import evance from "../assets/alumni/evance.jpg";
 
 const Home = () => {
   const achievements = [

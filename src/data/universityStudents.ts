@@ -1,7 +1,7 @@
-import george from "../assets/alumni/george.JPG";
+import george from "../assets/alumni/george.jpg"; // lowercase
 import ivy from "../assets/alumni/ivy.jpg";
-import wonderful from "../assets/alumni/wonderful.JPG";
-import evance from "../assets/alumni/evance.JPG";
+import wonderful from "../assets/alumni/wonderful.jpg";
+import evance from "../assets/alumni/evance.jpg";
 
 export const universityStudents = [
   {
@@ -27,14 +27,14 @@ export const universityStudents = [
   },
   {
     name: "Wonderful M.",
-    program: "Public Health",
-    university: "Mzuzu University (MZUNI)",
+    program: "BUSINESS",
+    university: "MUBAS",
     year: "2023 Alumni",
     image: wonderful,
     contact: {}
   },
   {
-    name: "Evance G.",
+    name: "Evance.",
     program: "Education",
     university: "University of Malawi (UNIMA)",
     year: "2023 Alumni",
